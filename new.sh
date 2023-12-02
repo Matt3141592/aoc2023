@@ -19,6 +19,6 @@ int main(void)
     clock_t begin = clock();
     part1();
     part2();
-    printf("%f\n", (float)(clock() - begin) / CLOCKS_PER_SEC);
+    printf(\"%f\n\", (float)(clock() - begin) / CLOCKS_PER_SEC);
 }
 " >> "$1.c"
