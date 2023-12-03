@@ -30,7 +30,7 @@ void part1(void)
         sum += x;
     }
 
-    printf("Part 1: %i\n", sum);
+    printf("%i\n", sum);
     fclose(in);
 } 
 
@@ -91,7 +91,7 @@ void part2(void)
         sum += x;
     }
 
-    printf("Part 2: %i\n", sum);
+    printf("%i\n", sum);
     fclose(in);
 } 
 
