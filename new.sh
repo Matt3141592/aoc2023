@@ -7,7 +7,7 @@ echo "#include <stdio.h>
 
 void part1(void)
 {
-    FILE *in = fopen("$1.txt", "r");
+    FILE *in = fopen(\"$1.txt\", \"r\");
 
     fclose(in);
 }
